@@ -8,6 +8,8 @@
 // import { CTA } from "@/components/cta"
 // import { Footer } from "@/components/footer"
 
+import { Header } from "@/components/header";
+
 // export default function Home() {
 //   return (
 //     <main className="min-h-screen bg-background">
@@ -21,8 +23,17 @@
 //       <CTA />
 //       <Footer />
 //     </main>
+
 //   )
 // }
+
+// {/* export default function Home() {
+//   return <h1>Milkdy Live 🚀</h1>
+// } */}
 export default function Home() {
-  return <h1>Milkdy Live 🚀</h1>
+  return (
+    <main>
+      <Header />
+    </main>
+  )
 }
