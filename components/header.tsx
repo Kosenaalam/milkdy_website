@@ -52,7 +52,13 @@ export function Header() {
           {/* <Button variant="ghost" size="sm">
             Sign in
           </Button> */}
-          <Button size="sm">Open App</Button>
+<a 
+  href="https://project-mgxeh.vercel.app" 
+  target="_blank" 
+  rel="noopener noreferrer"
+>
+  Open App
+</a>         {/* <Button size="sm">Open App</Button> */}
         </div>
 
         <div className="flex lg:hidden">
